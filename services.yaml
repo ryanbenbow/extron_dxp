@@ -1,0 +1,12 @@
+set_all_outputs:
+  name: Route All Outputs
+  description: Routes a specific Input to ALL Outputs simultaneously.
+  fields:
+    input:
+      name: Input Number
+      description: The input number to route (0 to disconnect).
+      required: true
+      selector:
+        number:
+          min: 0
+          max: 32
