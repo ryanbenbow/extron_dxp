@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Extron DXP",
+        "description": "Enter the connection details for your Matrix Switcher.",
+        "data": {
+          "host": "IP Address",
+          "port": "Port (Default 23)",
+          "password": "Password (Optional)",
+          "username": "Username (Optional)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect. Check IP and Port.",
+      "auth_failed": "Authentication failed. Check your password."
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  }
+}

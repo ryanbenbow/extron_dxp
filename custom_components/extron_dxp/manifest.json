@@ -1,0 +1,11 @@
+{
+  "domain": "extron_dxp",
+  "name": "Extron DXP Matrix",
+  "codeowners": ["@ryanbenbow"],
+  "config_flow": true,
+  "documentation": "https://github.com/ryanbenbow/extron_dxp",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/ryanbenbow/extron_dxp/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
